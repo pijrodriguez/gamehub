@@ -1,0 +1,72 @@
+body{
+    background-image: url("/images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#topper{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+}
+
+#topper:hover{
+    cursor: pointer;
+}
+
+#topics{
+    margin: 1vw 0 0 90vw;
+}
+
+#main{
+    width: 45vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 0 0 28.5vw;
+    border-radius: 10px;
+}
+
+#avatar{
+    width: 15vw;
+    height: 15vw;
+    margin: 50px 0 0 15vw;
+    border-radius: 10px;
+}
+
+#username{
+    width: 50%;
+    height: 7%;
+    margin: 30px 0 0 11vw;
+}
+#avatar_menu{
+    width: 50%;
+    margin: 10px 0 0 11vw;
+}
+
+#create{
+    width: 12vw;
+    margin: 25px 0 0 16vw;
+}
+
+#gender{
+    display: inline-block;
+}
+
+#radio_male{
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+#radio_female{
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+#gender_container{
+    margin: 0 0 0 16vw;
+}
+
+#custom_img{
+    width: 50%;
+    height: 7%;
+    margin: 5px 0 0 11vw;
+}

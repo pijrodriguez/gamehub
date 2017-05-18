@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Edit Profile</title>
+        <link rel="stylesheet" href="css/profile.css">
+    </head>
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <body>
+        <img src="/images/logotop.png" id="topper">
+        
+        <button id="topics" class="btn btn-default btn-"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>  Topics</button>
+       
+        <div id="main">
+            <img src="/images/noavatar.jpg" id="avatar">
+            
+            <input type="text" placeholder="Enter username" id="username" class="form-control">
+            
+            <select id="avatar_menu" class="form-control">
+              <option>Choose your avatar</option>
+              <option>Trevor</option>
+              <option>Crash</option>
+              <option>Cash</option>
+              <option>Custom</option>
+            </select>
+            
+            <div id="gender_container">
+                <h5 id="gender">Gender:</h5>
+                <input type="radio" name="optionsRadios" id="radio_male" checked>Male
+                <input type="radio" name="optionsRadios" id="radio_female">Female
+            </div>
+            
+            <input type="text" placeholder="Enter custom image url" id="custom_img" class="form-control" disabled>
+            
+            <button id="create" class="btn btn-primary btn-lg">Save user</button>
+            </div>
+               
+    
+        <script src="/socket.io/socket.io.js"></script>
+        <script src='/scripts/profilebundle.js'></script>
+    </body>
+</html>

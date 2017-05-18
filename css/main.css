@@ -1,0 +1,23 @@
+body{
+    background-image: url("/images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main{
+    margin: 2vw 0 0 40vw;
+}
+
+#create{
+    margin: 0 0 10px 0;
+    width:20vw;
+}
+#edit_profile{
+    width:20vw;
+}
+
+#logo {
+    width: 36vw;
+    height: auto;
+    margin: 0 0 0 -8vw;
+}
